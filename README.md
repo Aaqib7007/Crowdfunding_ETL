@@ -2,6 +2,7 @@ Crowdfunding_ETL project
 
 Introduction
 This ETL (Extract, Transform, Load) Mini Project aims to process raw data from a crowdfunding platform, clean it, and organize it into well-structured CSV files for future analysis. By using Python and the Pandas library, we extract data from Excel files, transform it through cleaning and reformatting, and finally save the results as structured CSV files.
+<img width="531" alt="Screenshot 2024-11-13 at 6 45 04 PM" src="https://github.com/user-attachments/assets/fbb6db99-b765-496c-876c-c0fd8bf29e6d">
 
 Project Overview
 The project involves three main datasets:
