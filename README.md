@@ -51,10 +51,16 @@ campaign_df['end_date'] = pd.to_datetime(campaign_df['end_date'], unit='s').dt.s
 The campaign data was then merged with the category and subcategory DataFrames.
 The cleaned DataFrame was exported as campaign.csv
 
+<img width="700" alt="Screenshot 2024-11-13 at 6 48 11 PM" src="https://github.com/user-attachments/assets/9dd1a1c0-314c-4815-a8c8-452cb7288de5">
+
+
 Extracting and Transforming Contact Data
 Contact data was extracted from contacts.xlsx, which contained JSON-like strings.
 We parsed these strings to create a structured DataFrame with columns: contact_id, first_name, last_name, and email.
 The cleaned DataFrame was exported as contacts.csv.
+
+
+<img width="735" alt="Screenshot 2024-11-13 at 6 48 45 PM" src="https://github.com/user-attachments/assets/3d1856eb-e850-41e3-bf4f-49570e88e38f">
 
                
 Generated CSV Files
