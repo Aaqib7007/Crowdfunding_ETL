@@ -44,10 +44,12 @@ The cleaned DataFrame was exported as subcategory.csv
 
 Merging and Cleaning Campaign Data
 We cleaned the campaign data by converting data types and formatting date columns.
+
 campaign_df['goal'] = campaign_df['goal'].astype(float)
 campaign_df['pledged'] = campaign_df['pledged'].astype(float)
 campaign_df['launch_date'] = pd.to_datetime(campaign_df['launch_date'], unit='s').dt.strftime('%Y-%m-%d')
 campaign_df['end_date'] = pd.to_datetime(campaign_df['end_date'], unit='s').dt.strftime('%Y-%m-%d')
+
 The campaign data was then merged with the category and subcategory DataFrames.
 The cleaned DataFrame was exported as campaign.csv
 
