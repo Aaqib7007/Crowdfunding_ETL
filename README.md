@@ -90,19 +90,29 @@ The Campaign table stores key details about each crowdfunding campaign:
 •	county and currency: Location and currency used.
 •	launch_Date and end_Date: Campaign timeline.
 •	category_id and subcategory_id: References to campaign category and subcategory (Foreign Keys).
+
+<img width="965" alt="image" src="https://github.com/user-attachments/assets/223f45dc-deae-4754-8b4b-4ea722ba6d51">
+
 ### Category Table
 The Category table categorizes campaigns into broad groups like "Technology" or "Music."
 •	category_id: Unique category identifier (Primary Key).
 •	category: Name of the category.
+
+<img width="241" alt="image" src="https://github.com/user-attachments/assets/8b7def34-0883-4da6-bfd1-c780bc3cd2fd">
+
 ### SubCategory Table
 The SubCategory table provides more specific classification within each category.
 •	subcategory_id: Unique subcategory identifier (Primary Key).
 •	subcategory: Name of the subcategory.
+<img width="236" alt="image" src="https://github.com/user-attachments/assets/08059007-ceec-4c3f-adda-d8bac6062fca">
+
 ### Contacts Table
 The Contacts table maintains details of campaign managers.
 •	contact_id: Unique identifier for each contact (Primary Key).
 •	first_name, last_name: Contact's name.
 •	email: Contact's email address.
+
+<img width="470" alt="image" src="https://github.com/user-attachments/assets/ab7699b0-1e8e-461d-ba9f-1c5b02322385">
 
 ## Data Integrity and Relationships
 The database enforces data integrity through the use of primary and foreign key constraints:
