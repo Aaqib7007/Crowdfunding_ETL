@@ -104,6 +104,7 @@ The Category table categorizes campaigns into broad groups like "Technology" or 
 The SubCategory table provides more specific classification within each category.
 •	subcategory_id: Unique subcategory identifier (Primary Key).
 •	subcategory: Name of the subcategory.
+
 <img width="236" alt="image" src="https://github.com/user-attachments/assets/08059007-ceec-4c3f-adda-d8bac6062fca">
 
 ### Contacts Table
